@@ -47,10 +47,6 @@ export default function Menu(){
       dispatch({type: "SHOW"});
   }
 
-  useEffect(() => {
-    console.log("HIDE TASKS: ", hideTasksDone);
-  }, [hideTasksDone])
-
   return (
     <Container checkboxIsCheck={hideTasksDone}>
       <ul>

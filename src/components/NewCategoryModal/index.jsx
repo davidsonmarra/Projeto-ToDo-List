@@ -19,7 +19,6 @@ export default function NewCategoryModal({setIsOpenNewCategoryModal, isOpenNewCa
     }
 
     function handleColor(ev) {
-      console.log(ev.target.value);
       setColor(ev.target.value);
     }
 

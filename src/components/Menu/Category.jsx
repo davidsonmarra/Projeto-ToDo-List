@@ -8,9 +8,8 @@ export default function Category({color, ct}) {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log("t")
     setIsSelected(false);
-  }, [categoriesCurent])
+  }, [categoriesCurent]);
 
   useEffect(() => {
     if(isSelected)
